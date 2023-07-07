@@ -1,7 +1,10 @@
-let message="Hello World";
+let message = "Hello World";
 
-let master=1;
+function first() {
+  for (let i = 0; i < 2; i++) {
+    var log = 1;
+  }
+  console.log(log);
+}
 
-let novice=2;
-
-let marvel=21321;
+first();
