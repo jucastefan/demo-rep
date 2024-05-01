@@ -1,0 +1,47 @@
+<div class="main">
+  <div class="main-select-car">
+    <div class="select-mark">
+      <mat-form-field>
+        <mat-label>Marca</mat-label>
+        <mat-select>
+          @for (food of foods; track food) {
+            <mat-option [value]="food.value">{{food.viewValue}}</mat-option>
+          }
+        </mat-select>
+      </mat-form-field>
+    </div>
+    <div class="select-model">
+      <mat-form-field>
+        <mat-label>Model</mat-label>
+        <mat-select>
+          @for (food of foods; track food) {
+            <mat-option [value]="food.value">{{food.viewValue}}</mat-option>
+          }
+        </mat-select>
+      </mat-form-field>
+    </div>
+    <div class="select-carburant">
+      <mat-form-field>
+        <mat-label>Carburant</mat-label>
+        <mat-select>
+          @for (food of foods; track food) {
+            <mat-option [value]="food.value">{{food.viewValue}}</mat-option>
+          }
+        </mat-select>
+      </mat-form-field>
+    </div>
+    <div class="select-cilindree">
+      <mat-form-field>
+        <mat-label>Putere</mat-label>
+        <mat-select>
+          @for (food of foods; track food) {
+            <mat-option [value]="food.value">{{food.viewValue}}</mat-option>
+          }
+        </mat-select>
+      </mat-form-field>
+    </div>
+  </div>
+  <div class="img-main">
+    <img src="../../../assets/images/parts-main-page.png" alt="parts-main" />
+  </div>
+</div>

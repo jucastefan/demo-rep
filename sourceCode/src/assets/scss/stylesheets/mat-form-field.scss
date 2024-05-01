@@ -1,0 +1,21 @@
+.mdc-text-field--filled:not(.mdc-text-field--disabled) {
+  display: flex;
+  background-color: transparent;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+}
+
+.mdc-text-field--no-label:not(.mdc-text-field--outlined):not(
+    .mdc-text-field--textarea
+  )
+  .mat-mdc-form-field-infix {
+  display: flex;
+}
+
+.mdc-line-ripple {
+  display: none;
+}
+
+.mat-mdc-form-field-focus-overlay {
+  background-color: transparent;
+}
